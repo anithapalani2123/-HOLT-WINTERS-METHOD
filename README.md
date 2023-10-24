@@ -16,7 +16,7 @@ Implementation of Holt Winters Method Using Python.
 9) You plot the original sales data and the predictions
 
 ## PROGRAMS:
-python
+```python
 
 import pandas as pd
 import numpy as np
@@ -53,7 +53,7 @@ pred=final_model.forecast(4)
 pred
 df['sales'].plot(legend=True, label='sales', figsize=(10,6))
 pred.plot(legend=True, label='prediction')
-
+```
 ## OUTPUT:
 
 ### SALES
